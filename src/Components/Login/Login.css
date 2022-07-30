@@ -17,6 +17,9 @@
     text-align: center;
     letter-spacing: 3px;
 }
+.larger-font{
+    font-size: 50px;
+}
 .welcome-message>p{
     margin: -2px;
     font-size: 15px;
@@ -71,6 +74,12 @@
     border-radius: 8px;
     padding: none;
     padding: 10px 20px;
+}
+.pass-icon{
+    position: absolute;
+    top: 700px;
+    right: 500px;
+    color: #262626c8;
 }
 input[type = submit]{
     height: 57px;

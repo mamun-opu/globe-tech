@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import './Nav.css';
-import {Link} from 'react-router-dom'
+import {Link, useLocation } from 'react-router-dom';
+
 const Nav = () => {
+    const history = useLocation();
+    useEffect(() => {
+        console.log(history.pathname)
+    },[history]);
+    
+    // if(history.pathname === '/services'){
+    //     setShowLogo(false)
+    // }else{}
+    
     return (
         <div className='navBar'>
-            <div className='logo'>
-                <img src="./images/globetech logo.png" alt="" />
-            </div>
+            {
+                !(history.pathname === "/services") ? 
+                <div className='logo'>
+                    <img src="./images/globetech logo.png" alt="" />
+                </div> : ''
+            }
+            
             <div className='menuBar'>
                 <Link className='route home-nav' to = '/'>Home</Link>
                 <Link className='route services-nav' to = '/services'>Services</Link>

@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React, { useState } from 'react';
 import services from '../../data/data';
 import Nav from '../Nav/Nav';
@@ -5,22 +6,24 @@ import Service from '../Service/Service';
 import './Services.css'
 
 const Services = () => {
-    const [mouseHoverd, setMouseHovered] = useState(false)
+    const [mouseHovered, setMouseHovered] = useState(false)
     const mouseH = ()=> {
-        setMouseHovered(!mouseHoverd)
+        setMouseHovered(!mouseHovered)
     }
     let animeStyle = ''
-    if(mouseHoverd){
+    if(mouseHovered){
         animeStyle = {
             transform: 'translate(1400px)'
         }
     }else{
-        animeStyle = {}
+        animeStyle = {
+            
+        }
     }
     return (
         <div className='service-page'>
             <Nav />
-            <div id='anime' className='plane' style={animeStyle}>
+            <div id='anime' style={animeStyle}>
                 <div className='line'>
                     <img src="./images/Line.png" alt="" /><img src="./images/Line.png" alt="" /><img src="./images/Line.png" alt="" />
                 </div>

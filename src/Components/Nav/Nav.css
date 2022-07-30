@@ -4,6 +4,8 @@
     
 }
 .menuBar{
+    position: absolute;
+    left: 1500px;
     display: flex;
     margin-top: 92px;
     margin-right: 237px;
@@ -23,9 +25,6 @@
     text-decoration: none;
     color: #8FE5FF;
     transition: 0.3s;
-}
-.hover-effected{
-    /* margin-right: 15px; */
 }
 .home-nav:hover{
     margin-right: 25px;

@@ -1,14 +1,14 @@
 import React from 'react';
-import './Home.css'
-import Banner from './Banner/Banner';
 import Nav from '../Nav/Nav';
+import Banner from '../Banner/Banner';
+
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Nav />
-            <Banner />
-        </div>
+            <Banner/>
+        </>
         
     );
 };

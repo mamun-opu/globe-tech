@@ -18,10 +18,10 @@
     width: 70px;
     height: 2px;
 }
-.plane{
+#anime{
     display: flex;
-    
-    margin-top: 85px;
+    position: absolute;
+    top: 150px;
 }
 .plane-body>img{
 
@@ -33,7 +33,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.15em;
-    margin-top: 150px;
+    margin-top: 320px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 500;

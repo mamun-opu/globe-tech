@@ -33,9 +33,9 @@ borderRadius: '4px', color: '#8FE5FF', backgroundColor: 'transparent'}}>Our Miss
                         <div id="second-circle">
                             <div className='first-small-ball round'></div>
                             <div className='first-big-ball round'></div>
-                            <dive id="center-circle">
+                            <div id="center-circle">
                               
-                            </dive>
+                            </div>
                         </div>
                     </div>
                 </div>
