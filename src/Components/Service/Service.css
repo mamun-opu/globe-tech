@@ -7,3 +7,40 @@
     margin-top: 44px;
     margin-bottom: 33px;
 }
+.service-card>img{
+    width: 444px;
+    height: 329px;
+    display: block;
+    margin: 3px auto;
+}
+.service-card>h4{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.69px;
+    text-align: center;
+    margin-top: 11px;
+}
+.service-card>p{
+    width: 391px;
+    height: 216px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 37px 41px 15px;
+    color: #000633;
+    letter-spacing: 3px;
+    text-align: justify;
+    /* line-height: 124%; */
+}
+.service-card>button{
+    width: 219px;
+    height: 60px;
+    background-color: #2397CD;
+    border-radius: 25px;
+    display: block;
+    margin: 1px auto 73px;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    border: none;
+}

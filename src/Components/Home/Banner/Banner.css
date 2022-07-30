@@ -125,6 +125,7 @@
     background-color: aqua;
     border-radius: 50%;
     margin: -18px 0 0 225px;
+    animation: ball;
 }
 .mid-round-fourth{
     height: 38.94px;
@@ -155,6 +156,7 @@
     background-color: aqua;
     border-radius: 50%;
     margin: 300px 0 0 30px;
+    transition: transform 1s ease-out 0.3s;
 }
 .small-round-second{
     height: 24.78px;
@@ -166,4 +168,12 @@
 }
 .round{
     background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+}
+
+
+/* .mid-round-fourth:hover .mid-round-fourth{
+    transform: translate(100px, 200px)
+} */
+.round:hover{
+    background-color: red;
 }

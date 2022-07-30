@@ -1,0 +1,82 @@
+#login-page{
+    display: flex;
+    height: 1314px;
+}
+.welcome-message{
+    height: 1314px;
+    width: 514px;
+}
+.name{
+    width: 514px;
+    height: 227px;
+    margin-top: 95px;
+}
+.name>h1{
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.welcome-message>p{
+    margin: -2px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+    color: #ffffff;
+}
+#triangle{
+    display: block;
+    margin-top: 835px;
+    margin: 835px auto 59px;
+}
+.login-area{
+    width: 1406px;
+    background-color: #C0CDD3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 478px;
+    height: 407px;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px #00000040;
+    padding: 10px 0;
+}
+.login-form>h2{
+    font-size: 32px;
+    letter-spacing: -1px;
+    color: #212121;
+    font-weight: 300;
+}
+.login-form>p{
+    font-size: 12px;
+    color: #928B8B;
+    margin: 5px 0 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input>input{
+    margin-top: 19px;
+    height: 37px;
+    width: 392px;
+    border: 1px solid #8C8383;
+    border-radius: 8px;
+    padding: none;
+    padding: 10px 20px;
+}
+input[type = submit]{
+    height: 57px;
+    width: 441px;
+    background-color: #0096C7;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}

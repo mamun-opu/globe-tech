@@ -6,8 +6,9 @@ const Service = (props) => {
     return (
         <div className='service-card'>
             <img src={photo} alt="" />
-            <h2>{name}</h2>
+            <h4>{name}</h4>
             <p>{details}</p>
+            <button>MORE</button>
         </div>
     );
 };

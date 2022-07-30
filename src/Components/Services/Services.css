@@ -4,6 +4,7 @@
 }
 #anime{
     margin-top: 40px;
+    margin-left: 212px;
 }
 .line{
     display: flex;
@@ -18,7 +19,7 @@
 }
 .plane{
     display: flex;
-    margin-left: 212px;
+    
     margin-top: 85px;
 }
 .plane-body>img{
