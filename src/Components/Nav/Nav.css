@@ -1,0 +1,28 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menuBar{
+    display: flex;
+    margin-top: 92px;
+    margin-right: 237px;
+}
+.logo>img{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    margin-left: 210px;
+    margin-top: 88px;
+}
+.route{
+    margin-right: 20px;
+    height: 32px;
+    font-weight: 500px;
+    font-size: 21px;
+    text-decoration: none;
+    color: aqua;
+}
+.hover-effected{
+    /* margin-right: 15px; */
+}

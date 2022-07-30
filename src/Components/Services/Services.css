@@ -1,0 +1,63 @@
+.service-page{
+    background-image: linear-gradient(to left, #00094D, #000424);
+    margin-bottom: 33px;
+}
+#anime{
+    margin-top: 40px;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+.line>img{
+    margin-top: 2px;
+    width: 70px;
+    height: 2px;
+}
+.plane{
+    display: flex;
+    margin-left: 212px;
+    margin-top: 85px;
+}
+.plane-body>img{
+
+    width: 110px;
+    height: 71px;
+}
+#services{
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 59px;
+
+}
+#provide{
+    width: 1021px;
+    height: 68px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+
+    display:block;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
