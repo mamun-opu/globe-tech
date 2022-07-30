@@ -8,9 +8,9 @@ const Nav = () => {
                 <img src="./images/globetech logo.png" alt="" />
             </div>
             <div className='menuBar'>
-                <Link className='route' to = '/'>Home</Link>
-                <Link className='route' to = '/services'>Services</Link>
-                <Link className='route' to = '/login'>Login</Link>
+                <Link className='route home-nav' to = '/'>Home</Link>
+                <Link className='route services-nav' to = '/services'>Services</Link>
+                <Link className='route login-nav' to = '/login'>Login</Link>
             </div>
         </div>
     );

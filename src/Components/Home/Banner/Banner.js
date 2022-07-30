@@ -25,14 +25,14 @@ borderRadius: '4px', color: '#8FE5FF', backgroundColor: 'transparent'}}>Our Miss
             </div>
             <div className='solar'>
                 <div id="fourth-circle">
-                    <div className='big-round-fourth round'></div>
-                    <div className='mid-round-fourth round'></div>
+                    <div className='fourth-big-ball round'></div>
+                    <div className='forth-mid-ball round'></div>
                     <div id="third-circle">
-                        <div id='first' className='round'></div>
-                        <div id='second' className='round'></div>
+                        <div className='second-mid-ball round'></div>
+                        <div className='second-mid-ball2 round'></div>
                         <div id="second-circle">
-                            <div className='big-round-second round'></div>
-                            <div className='small-round-second round'></div>
+                            <div className='first-small-ball round'></div>
+                            <div className='first-big-ball round'></div>
                             <dive id="center-circle">
                               
                             </dive>

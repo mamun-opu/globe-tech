@@ -3,8 +3,9 @@
     margin-bottom: 33px;
 }
 #anime{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 212px;
+    transition: transform 0.4s ease;
 }
 .line{
     display: flex;
@@ -32,7 +33,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.15em;
-
+    margin-top: 150px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
@@ -61,4 +62,7 @@
 .services{
     display: flex;
     flex-wrap: wrap;
+}
+#anime:hover{
+    transform: translate(1400px);
 }

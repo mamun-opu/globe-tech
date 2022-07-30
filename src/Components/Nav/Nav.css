@@ -21,8 +21,26 @@
     font-weight: 500px;
     font-size: 21px;
     text-decoration: none;
-    color: aqua;
+    color: #8FE5FF;
+    transition: 0.3s;
 }
 .hover-effected{
     /* margin-right: 15px; */
+}
+.home-nav:hover{
+    margin-right: 25px;
+    color: #D7F561;
+    font-weight: 700;
+}
+.services-nav:hover{
+    margin-right: 25px;
+    color: #D7F561;
+    font-weight: 700;
+    margin-right: 35px;
+}
+.login-nav:hover{
+    margin-right: 15px;
+    color: #D7F561;
+    font-weight: 700;
+    margin-right: 25px;
 }

@@ -16,6 +16,9 @@
 }
 .plane{
     display: flex;
+    position: absolute;
+    top: 100px;
+    transition: transform;
 }
 .plane-body>img{
     width: 110px;
@@ -61,44 +64,38 @@
     box-shadow: inset -8px -8px 16px #B6CC63, inset 8px 8px 16px rgba(255, 255, 255, 0.5);
     border-radius: 4px;
 }
-/* .solar{
-    margin-right: 138.85px;
-} */
+
+.solar{
+    transition:margin linear 5s ease 1000ms;
+    margin-left: 237px;
+    margin-top: 12.98px;
+}
 
 #fourth-circle {
-    /* box-sizing: border-box;
-    position: absolute; */
-    /* position: absolute; */
+    box-sizing: border-box;
+    position: absolute;
     width: 703px;
     height: 703px;
-    margin-top: 12.98px;
     border: 3px solid;
     border-radius: 50%;
-    margin-left: 232px;
 }
 #third-circle {
-    /* box-sizing: border-box;
-
-    position: absolute; */
+    box-sizing: border-box;
+    position: absolute;
     width: 540.34px;
     height: 540.34px;
-    /* left: 1159.4px; */
-    /* margin-top: 383.38px; */
-    margin-left: 82px;
-    margin-top: 82px;
+    top: 79px;
+    left: 83.4px;
     border: 3px solid;
     border-radius: 50%;
 }
 #second-circle{
-    /* box-sizing: border-box;
-
-    position: absolute; */
+    box-sizing: border-box;
+    position: absolute;
     width: 381.07px;
     height: 381.07px;
-    /* left: 1238.45px;
-    top: 462.43px; */
-    margin-left: 79.05px;
-    margin-top: 79.05px;
+    left: 80.45px;
+    top: 70.43px;
     border: 3px solid;
     border-radius: 50%;
 
@@ -107,73 +104,95 @@
     position: absolute;
     width: 168px;
     height: 168px;
-    /* left: 1346px;
-    top: 570px; */
-    margin-left: 107.55px;
-    margin-top: 107.55px;
+    left: 106px;
+    top: 90px;
     background: linear-gradient(265.22deg, #DEF77D 0%, #D0F344 100%);
     border-radius: 50%;
 }
 .center-circle, .second-circle, .third-circle, .fourth-circle{
     border-image: liner-gradient(135deg, #C2F1FF, #006E8F) 
 }
-
-.big-round-fourth{
+/* planet */
+.fourth-big-ball{
     height: 61.35px;
     width: 61.35px;
     position: absolute;
-    background-color: aqua;
     border-radius: 50%;
-    margin: -18px 0 0 225px;
-    animation: ball;
+    top: -18px;
+    left: 219px;
+    transition: transform 0.4s ease;
 }
-.mid-round-fourth{
+.forth-mid-ball{
     height: 38.94px;
     width: 38.94px;
     position: absolute;
-    background-color: aqua;
     border-radius: 50%;
-    margin: 684px 0 0 309px;
+    top: 678px;
+    left: 318px;
+    transition: transform 0.4s ease;
 }
-#first, #second{
+.second-mid-ball, .second-mid-ball2{
     height: 38.94px;
     width: 38.94px;
     position: absolute;
-    background-color: aqua;
     border-radius: 50%;
-    
+    transition: transform 0.4s ease;
 }
-#first{
-    margin: 53px 0 0 436px;
+.second-mid-ball{
+    top: 53px;
+    left: 435px;
 }
-#second{
-    margin: 341px 0 0 505px;
+.second-mid-ball2{
+    top: 341px;
+    left: 499px;
 }
-.big-round-second{
+.first-big-ball{
     height: 70px;
     width: 70px;
     position: absolute;
-    background-color: aqua;
     border-radius: 50%;
-    margin: 300px 0 0 30px;
-    transition: transform 1s ease-out 0.3s;
+    transition: transform 0.4s ease;
+    top: 230px;
+    left: -20px;
 }
-.small-round-second{
+.first-small-ball{
     height: 24.78px;
     width: 24.78px;
     position: absolute;
-    background-color: aqua;
     border-radius: 50%;
-    margin: 37px 0 0 47px;
+    top: 84px;
+    left: 10px;
+    transition: transform 0.4s ease;
+    
 }
 .round{
     background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
 }
 
+/* ----------------------------animation------------------ */
+.solar:hover .first-small-ball{
+    transform: translate(296px, -43px);
+}
+.solar:hover .first-big-ball{
+    transform: translate(-20px, -110px);
+}
+.solar:hover .second-mid-ball{
+    transform: translate(-250px, -68px);
+}
+.solar:hover .second-mid-ball2{
+    transform: translate(-170px, 160px);
+}
+.solar:hover .second-mid-ball2{
+    transform: translate(-170px, 160px);
+}
+.solar:hover .forth-mid-ball{
+    transform: translate(-285px, -160px);
+}
+.solar:hover .fourth-big-ball{
+    transform: translate(325px, 70px);
+}
 
-/* .mid-round-fourth:hover .mid-round-fourth{
-    transform: translate(100px, 200px)
-} */
-.round:hover{
-    background-color: red;
+/* -----------plane animation------------ */
+.plane:hover{
+    transform: translate(400px);
 }

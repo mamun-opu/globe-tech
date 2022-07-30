@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import services from '../../data/data';
 import Nav from '../Nav/Nav';
 import Service from '../Service/Service';
 import './Services.css'
 
 const Services = () => {
-    console.log(services)
+    const [mouseHoverd, setMouseHovered] = useState(false)
+    const mouseH = ()=> {
+        setMouseHovered(!mouseHoverd)
+    }
+    let animeStyle = ''
+    if(mouseHoverd){
+        animeStyle = {
+            transform: 'translate(1400px)'
+        }
+    }else{
+        animeStyle = {}
+    }
     return (
         <div className='service-page'>
             <Nav />
-            <div id='anime' className='plane'>
+            <div id='anime' className='plane' style={animeStyle}>
                 <div className='line'>
                     <img src="./images/Line.png" alt="" /><img src="./images/Line.png" alt="" /><img src="./images/Line.png" alt="" />
                 </div>
@@ -22,7 +33,7 @@ const Services = () => {
             <h1 id='provide'>We provide services to our clients</h1>
             <div className='services'>
                 {
-                    services.map(service => <Service key={service.id} service = {service}/>)
+                    services.map(service => <Service mouseH = {mouseH} key={service.id} service = {service}/>)
                 }
             </div>
         </div>
