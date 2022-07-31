@@ -8,7 +8,6 @@
     left: 1500px;
     display: flex;
     margin-top: 92px;
-    margin-right: 237px;
 }
 .logo>img{
     position: absolute;
@@ -27,19 +26,18 @@
     transition: 0.3s;
 }
 .home-nav:hover{
-    margin-right: 25px;
+    transform: translate(-10px);
     color: #D7F561;
     font-weight: 700;
 }
-.services-nav:hover{
-    margin-right: 25px;
+.services-nav:hover {
+    transform: translate(-10px);
     color: #D7F561;
     font-weight: 700;
-    margin-right: 35px;
+    
 }
 .login-nav:hover{
-    margin-right: 15px;
     color: #D7F561;
     font-weight: 700;
-    margin-right: 25px;
+   
 }

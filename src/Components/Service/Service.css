@@ -14,6 +14,7 @@
     margin: 3px auto;
 }
 .service-card>h4{
+    font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     font-weight: 500;
     line-height: 31.69px;
@@ -32,12 +33,13 @@
     /* line-height: 124%; */
 }
 .service-card>button{
+    font-family: 'Montserrat', sans-serif;
     width: 219px;
     height: 60px;
     background-color: #2397CD;
     border-radius: 25px;
     display: block;
-    margin: 1px auto 73px;
+    margin: 40px auto 53px;
     font-weight: 600;
     font-size: 26px;
     letter-spacing: 3px;

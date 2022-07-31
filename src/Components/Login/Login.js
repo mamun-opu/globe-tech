@@ -23,8 +23,8 @@ const Login = () => {
                     
                     <p>Sign in to your account</p>
                     <div className="input">
-                        <input type="email" name="" id="" placeholder='Email'/>
-                        <input type="password" name="" id="" placeholder='Password' />
+                        <input type="email" name="" id="mail" placeholder='Email'/>
+                        <input type="password" name="" id="pass" placeholder='Password' />
                         <FontAwesomeIcon icon={faEye} className = 'pass-icon'/>
                         <input type="submit" value="Login" />
                     </div>
